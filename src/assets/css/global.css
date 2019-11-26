@@ -3,7 +3,7 @@
 @tailwind components;
 
 h2 {
-    @apply font-title text-4xl text-blue-800
+    @apply font-title text-4xl text-blue-800 pb-8
 }
 
 @tailwind utilities;
