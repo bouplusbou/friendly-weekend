@@ -1,6 +1,26 @@
 <template>
   <div class="bg-blue-100 text-xl overflow-hidden">
-    <h1 class="text-center pt-16">Friendly Weekend</h1>
+    <div class="flex pt-16 justify-center">
+          <svg style="animation: circle 40s linear infinite;" viewBox="0 0 100 110" width="200" height="200">
+  <defs>
+    <path id="circle"
+      d="
+        M 50, 50
+        m -37, 0
+        a 37,37 0 1,1 74,0
+        a 37,37 0 1,1 -74,0"/>
+  </defs>
+  <text style="font-family: Roboto;
+               font-size  : 19;
+               font-weight: bold;
+               fill       : #F6E05E;">
+    <textPath xlink:href="#circle">
+       - FRIENDSHIP - WEEKEND
+    </textPath>
+  </text>
+</svg>
+    </div>
+
     <section class="p-16 pb-64">
       <div class="text-center w-2/4 m-auto text-blue-800">
         <p>Si vous lisez ce message, c’est qu’on vous aime très fort.</p>
@@ -111,8 +131,12 @@ du jeudi 21 au dimanche 24 mai 2020.</p>
 <path d="M1429.98 96.1043C1488.37 96.1043 1554.99 112.523 1581 120.733V172H0V153.906V96.1043C9.87524 101.633 44.2218 114.299 102.606 120.733C175.586 128.774 218.219 96.1043 303.483 96.1043C388.747 96.1043 425.598 138.827 531.095 106.659C636.591 74.4917 664.049 96.1043 720.41 96.1043C776.771 96.1043 815.79 132.796 864.926 120.733C982.706 88.565 1008 86.5545 1082.42 96.1043C1156.85 105.654 1208.87 127.769 1291.97 120.733C1375.07 113.696 1357 96.1043 1429.98 96.1043Z" fill="#A0E1F2"/>
 </svg>
     <h2>Next steps</h2>
-    <p>Il ne vous reste plus qu’à nous confirmer votre venue, si possible avant le 15 décembre 2019.</p>
-    <p>Pour les plus hésitants, dites-vous que c’est tout comme un mariage, vous ne voudriez pas rater ça ! </p>
+    <p>Il ne vous reste plus qu’à nous confirmer votre venue.</p>
+    <br>
+    <p>Si possible avant le 15 décembre 2019.</p>
+    <br>
+    <p>Pour les plus hésitants, dites-vous que c’est tout comme un mariage.</p>
+    <p>Vous ne voudriez pas rater ça ! </p>
   </section>
   </div>
 
@@ -123,6 +147,15 @@ export default {};
 </script>
 
 <style>
+@keyframes circle{
+  from{
+    transform:rotate(0deg)
+  }
+  to{
+    transform:rotate(360deg)
+  }
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
