@@ -18,10 +18,7 @@
           />
         </defs>
         <text
-          style="font-family: Roboto;
-               font-size  : 19;
-               font-weight: bold;
-               fill       : #ECC94B;"
+          style="font-family: Roboto; font-size  : 19; font-weight: bold; fill       : #ECC94B;"
         >
           <textPath xlink:href="#circle">
             - FRIENDSHIP - WEEKEND
