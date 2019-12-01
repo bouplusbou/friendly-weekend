@@ -21,7 +21,7 @@
           style="font-family: Roboto;
                font-size  : 19;
                font-weight: bold;
-               fill       : #F6E05E;"
+               fill       : #ECC94B;"
         >
           <textPath xlink:href="#circle">
             - FRIENDSHIP - WEEKEND
@@ -30,10 +30,12 @@
       </svg>
     </div>
 
-    <section class="p-16 pb-64">
-      <div class="text-center w-2/4 m-auto text-blue-800">
+    <section class="px-2 pt-16 pb-64 lg:p-16 lg:pb-64">
+      <div class="text-center lg:w-2/4 lg:m-auto text-blue-800">
         <p>Si vous lisez ce message, c’est qu’on vous aime très fort.</p>
         <p>Vous êtes comme notre famille.</p>
+        <br />
+        <img src="../assets/heart.png" width="50" height="50" class="mx-auto" />
         <br />
         <p>
           Mais pourquoi attendre un mariage pour rassembler les gens qu’on aime
@@ -44,12 +46,17 @@
         </p>
         <br />
         <p>
-          Venez prendre une bouffée d’amitié, le temps d’un week-end avec nous.
+          On vous invite à prendre une bouffée d’amitié, le temps d’un week-end
+          avec nous.
         </p>
+        <br />
+        <p class="italic text-base">Julie & Baptiste</p>
       </div>
     </section>
 
-    <section class="relative bg-white p-16 text-center text-gray-600">
+    <section
+      class="relative bg-white lg:px-2 lg:p-16 text-center text-gray-600"
+    >
       <svg
         class="absolute"
         style="left: 0; top: -210px"
@@ -91,21 +98,27 @@
       <h2 class="text-center font-title text-gray-700">
         Le lieu
       </h2>
-      <p>
+      <p class="px-2">
         A 1 heure de Bordeaux, et 5 heures de Paris en train se cache un vrai
-        paradis.
+        paradis
       </p>
       <p>Nous avons hâte de vous y accueillir !</p>
       <br />
       <p>Quelques photos prisent durant nos derniers séjours:</p>
-      <div class="gallery pt-8">
-        <img src="../assets/image2.jpg" id="image2" class="tile" />
-        <img src="../assets/image3.jpg" id="image3" class="tile" />
-        <img src="../assets/image4.jpg" id="image4" class="tile" />
-        <img src="../assets/image5.jpg" id="image5" class="tile" />
-        <img src="../assets/image6.jpg" id="image6" class="tile" />
-        <img src="../assets/image7.jpg" id="image7" class="tile" />
-      </div>
+      <ul class="gallery pt-8">
+        <li><img src="../assets/image1.jpg" /></li>
+        <li><img src="../assets/image2.jpg" /></li>
+        <li><img src="../assets/image3.jpg" /></li>
+        <li><img src="../assets/image4.jpg" /></li>
+        <li><img src="../assets/image5.jpg" /></li>
+        <li><img src="../assets/image6.jpg" /></li>
+        <li><img src="../assets/image7.jpg" /></li>
+        <li><img src="../assets/image8.jpg" /></li>
+        <li><img src="../assets/image10.jpg" /></li>
+        <li><img src="../assets/image11.jpg" /></li>
+        <li><img src="../assets/image12.jpg" /></li>
+        <li><img src="../assets/image13.jpg" /></li>
+      </ul>
 
       <svg
         class="absolute"
@@ -225,25 +238,61 @@
       </h2>
       <div class="flex text-left pb-32 justify-center">
         <div>
-          <p>Plage</p>
-          <p>Piscine</p>
-          <p>Olympiades</p>
-          <p>Marchés</p>
-          <p>Aperos</p>
-          <p>Bouee tractee</p>
+          <div class="flex items-center mb-8">
+            <img src="../assets/beach.png" width="40" height="40" />
+            <p class="ml-2">Plage</p>
+          </div>
+          <div class="flex items-center mb-8">
+            <img src="../assets/bikini.png" width="40" height="40" />
+            <p class="ml-2">Piscine</p>
+          </div>
+          <div class="flex items-center mb-8">
+            <img src="../assets/medal.png" width="40" height="40" />
+            <p class="ml-2">Olympiades</p>
+          </div>
+          <div class="flex items-center mb-8">
+            <img src="../assets/avocado.png" width="40" height="40" />
+            <p class="ml-2">Marchés</p>
+          </div>
+          <div class="flex items-center mb-8">
+            <img src="../assets/cocktail-glass.png" width="40" height="40" />
+            <p class="ml-2">Aperos</p>
+          </div>
+          <div class="flex items-center mb-8">
+            <img src="../assets/boat.png" width="40" height="40" />
+            <p class="ml-2">Bouee tractee</p>
+          </div>
         </div>
-        <div class="ml-32">
-          <p>Jeux de societe</p>
-          <p>Surf</p>
-          <p>Yoga</p>
-          <p>Tennis</p>
-          <p>Balade a velo</p>
-          <p>Ping-Pong</p>
+        <div class="ml-4 lg:ml-32">
+          <div class="flex items-center mb-8">
+            <img src="../assets/dice.png" width="40" height="40" />
+            <p class="ml-2">Jeux de societe</p>
+          </div>
+          <div class="flex items-center mb-8">
+            <img src="../assets/surf.png" width="40" height="40" />
+            <p class="ml-2">Surf</p>
+          </div>
+          <div class="flex items-center mb-8">
+            <img src="../assets/yoga.png" width="40" height="40" />
+            <p class="ml-2">Yoga</p>
+          </div>
+          <div class="flex items-center mb-8">
+            <img src="../assets/tennis.png" width="40" height="40" />
+            <p class="ml-2">Tennis</p>
+          </div>
+          <div class="flex items-center mb-8">
+            <img src="../assets/bike.png" width="40" height="40" />
+            <p class="ml-2">Balade a velo</p>
+          </div>
+          <div class="flex items-center mb-8">
+            <img src="../assets/ping-pong.png" width="40" height="40" />
+            <p class="ml-2">Ping-Pong</p>
+          </div>
         </div>
       </div>
     </section>
     <section
-      class="relative bg-yellow-400 p-16 pb-64 text-center text-yellow-700"
+      class="relative bg-yellow-400 lg:p-16 pb-64 text-center text-yellow-700"
     >
       <svg
         class="absolute"
@@ -262,16 +311,35 @@
       <h2 class="text-yellow-800">
         On fait ça quand ?
       </h2>
-
+      <div class="lg:flex justify-center items-center mb-8">
+        <img
+          class="lg:mx-0 mx-auto"
+          src="../assets/from.png"
+          width="200"
+          height="200"
+        />
+        <div
+          class="mx-auto my-8 bg-yellow-300 rounded lg:mx-10"
+          style="width:30px; height:10px"
+        ></div>
+        <img
+          class="lg:mx-0 mx-auto"
+          src="../assets/to.png"
+          width="200"
+          height="200"
+        />
+      </div>
       <p>
-        Week-end prolongé de l’Ascension, du jeudi 21 au dimanche 24 mai 2020.
+        Durant le week-end prolongé de l’Ascension
       </p>
-      <p>Ajouter à mon calendrier</p>
+      <p class="lg:pb-32">
+        Du jeudi 21 au dimanche 24 mai 2020
+      </p>
     </section>
 
     <section
       style="background-color: #A0E1F2"
-      class="relative px-16 pb-64 text-center text-blue-800"
+      class="relative lg:px-16 pb-32 text-center text-blue-800"
     >
       <svg
         class="absolute"
@@ -296,14 +364,20 @@
         />
       </svg>
       <h2>Next steps</h2>
-      <p>Il ne vous reste plus qu’à nous confirmer votre venue.</p>
+      <p>Il ne vous reste plus qu’à nous confirmer votre venue</p>
       <br />
-      <p>Si possible avant le 15 décembre 2019.</p>
+      <p>Si possible avant le 15 décembre 2019</p>
       <br />
       <p>
-        Pour les plus hésitants, dites-vous que c’est tout comme un mariage.
+        Pour les plus hésitants, dites-vous que c’est tout comme un mariage
       </p>
       <p>Vous ne voudriez pas rater ça !</p>
+      <img
+        class="rounded mt-16 mx-auto"
+        src="../assets/us.png"
+        width="400"
+        height="400"
+      />
     </section>
   </div>
 </template>
@@ -324,17 +398,44 @@ export default {};
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 300px 300px 300px;
-  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 300px;
+  grid-auto-flow: dense;
 }
-.tile {
+
+@media (max-width: 600px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+  }
+}
+li:nth-child(1) {
+  grid-column: span 2;
+}
+li:nth-child(3) {
+  grid-row: span 2;
+}
+li:nth-child(4) {
+  grid-row: span 2;
+}
+li:nth-child(4) {
+  grid-row: span 2;
+}
+li:nth-child(7) {
+  grid-row: span 2;
+}
+li:nth-child(8) {
+  grid-column: span 2;
+}
+li:nth-child(9) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+li img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-#image2 {
-  grid-column-start: 1;
-  grid-column-end: 3;
 }
 </style>
