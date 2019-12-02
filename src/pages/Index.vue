@@ -370,11 +370,107 @@
       </p>
       <p>Vous ne voudriez pas rater ça !</p>
       <img
-        class="rounded mt-16 mx-auto"
+        class="mt-16 mx-auto"
         src="../assets/us.png"
         width="400"
         height="400"
       />
+      <p class="font-title text-4xl text-blue-400 mt-12">Team players</p>
+      <div class="flex flex-wrap mt-8 justify-around">
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/maelle.png" width="200" height="200" />
+          <p>Maelle</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/raf.png" width="200" height="200" />
+          <p>Raphael</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/victor.png" width="200" height="200" />
+          <p>Victor</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/anne.png" width="200" height="200" />
+          <p>Anne</p>
+        </div>
+      </div>
+      <div class="flex flex-wrap mt-8 justify-around">
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/remy.png" width="200" height="200" />
+          <p>Remy</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/camille.png" width="200" height="200" />
+          <p>Camille</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/hannah.png" width="200" height="200" />
+          <p>Hannah</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/djema.png" width="200" height="200" />
+          <p>Djema</p>
+        </div>
+      </div>
+      <div class="flex flex-wrap mt-8 justify-around">
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/anne2.png" width="200" height="200" />
+          <p>Anne</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/nico.png" width="200" height="200" />
+          <p>Nico</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/baptiste.png" width="200" height="200" />
+          <p>Baptiste</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img
+            class=""
+            src="../assets/charlotte.png"
+            width="200"
+            height="200"
+          />
+          <p>Charlotte</p>
+        </div>
+      </div>
+      <div class="flex flex-wrap mt-8 justify-around">
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/evin.png" width="200" height="200" />
+          <p>Evin</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/maxime.png" width="200" height="200" />
+          <p>Maxime</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/mathilde.png" width="200" height="200" />
+          <p>Mathilde</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/nath.png" width="200" height="200" />
+          <p>Nath</p>
+        </div>
+      </div>
+      <div class="flex flex-wrap mt-8 justify-around">
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/may.png" width="200" height="200" />
+          <p>May</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/niccolo.png" width="200" height="200" />
+          <p>Niccolo</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/carole.png" width="200" height="200" />
+          <p>Carole</p>
+        </div>
+        <div class="flex flex-col items-center mb-8">
+          <img class="" src="../assets/celine.png" width="200" height="200" />
+          <p>Celine</p>
+        </div>
+      </div>
     </section>
   </div>
 </template>
